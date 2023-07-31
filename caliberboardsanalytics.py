@@ -36,8 +36,8 @@ config = {"displayModeBar": False, "showTips": False}
 # Display the figure in Streamlit with specified config
 st.plotly_chart(fig, config=config)
 
-data = pd.read_csv('/Users/hassanhshah/Downloads/data-1689557843429.csv')
-questions = pd.read_csv('/Users/hassanhshah/Downloads/AverageQuestion.csv')
+data = pd.read_csv('data-1689557843429.csv')
+questions = pd.read_csv('AverageQuestion.csv')
 
 data['prompt'] = data['prompt'].fillna('')
 data['question'] = data['question'].fillna('')
