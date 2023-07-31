@@ -14,7 +14,7 @@ Discover your strengths and pinpoint areas for improvement. With our tailored an
 """)
  
 # Define the scenarios and scores
-scenarios = ['GI - Small Bowel Obstruction', 'Breast - Architectural Distortion', 'Vascular - Dialysis Access', 'Endocrine - Aldosteronoma']
+scenarios = ['GI - Small Bowel Obstruction', 'Breast - Benign', 'Vascular - Dialysis Access', 'Endocrine - Aldosteronoma']
 candidate_scores = [35, 72, 46, 90]
 average_scores = [50, 50, 50, 50]
 
@@ -82,7 +82,7 @@ st.markdown('**Data based on 2022 ABS Certifying Examination statistics availabl
 
 # Define the session groups and pass rates
 session_groups = ['1-3', '4-6', '7-9', '10+']
-passrate_values = [80, 90, 98, 100]
+passrate_values = [80, 89, 98, 100]
 
 # Create the figure
 fig2 = go.Figure()
